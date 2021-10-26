@@ -18,7 +18,7 @@ int binarySearch(vector<int> ar, int size, int searchValue) {
 	int mid;
 
 	while (L <= H) {
-    mid = (L + H) / 2;
+    	mid = (L + H) / 2;
 		if (searchValue == ar[mid]) 
 			return mid;
 		else if (searchValue > ar[mid])
@@ -29,5 +29,4 @@ int binarySearch(vector<int> ar, int size, int searchValue) {
 
 	return -1;
 }
-
 
